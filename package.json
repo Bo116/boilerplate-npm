@@ -1,8 +1,15 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author":"Bo Ye",
+  "description":"this is a new project",
+  "keywords": [ "freecodecamp", "related", "words" ],
+  "license": "MIT",
+  "version": "1.0.0",
 	"dependencies": {
-		"express": "^4.14.0"
+    "express": "^4.14.0",
+    "@freecodecamp/example":"1.1.0" 
+		
+    
 	},
 	"main": "server.js",
 	"scripts": {
